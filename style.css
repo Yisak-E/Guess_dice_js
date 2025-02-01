@@ -1,0 +1,80 @@
+body{
+    margin:0;
+    background-color: blanchedalmond;
+    box-sizing: border-box;
+}
+h1{
+   font-size: 100px;
+   text-align: center;
+ 
+}
+#game_body{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    padding: 0 10%;
+}
+#division_1{
+    width:40%;
+    height: 700px;
+    background-color: rgba(127, 255, 212, 0.478);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 40px;
+  
+}
+#division_2 {
+    width: 40%;
+    height: 700px;
+    background-color:rgba(0, 255, 255, 0.474);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-right-radius: 40px;
+}
+img{
+    width:300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    margin-bottom: 50px;
+
+}
+img:hover{
+    transform: rotate(45deg);
+}
+button{
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    
+    font-size: 40px;
+}
+button:hover{
+    background-color: aqua;
+}
+#guess{
+    width: fit-content;
+    background-color: antiquewhite;
+    padding: 0 10px;
+}
+#guess:hover{
+    background-color: blueviolet;
+}
+h2{
+    font-size: 40px;
+}
+label, input{
+    font-size: 35px;
+    align-self:flex-start;
+    margin-left: 20px;
+    width:max-content;
+}
+input{
+    margin-left:  50px;
+    margin-bottom: 20px;
+}
